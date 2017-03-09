@@ -3,6 +3,8 @@ function getHeightAndDraw () {
     var height = parseInt(heightStr);
 
     var brickChar = document.getElementById("brick").value;
+
+    document.getElementById("slide-val").innerHTML = heightStr;
     
     // console.log for debug
     drawPyramid(height, brickChar);
@@ -21,12 +23,17 @@ brickSetup.addEventListener("change", getHeightAndDraw);
 
 
 
+
+
+
+
 function drawPyramid(height, brickChar) {
     //remove extant content
     var pyramidNode = document.getElementById("pyramid");
     while (pyramidNode.hasChildNodes()) {
         pyramidNode.removeChild(pyramidNode.lastChild);
     }
+    
 
     // for each row
     for (var row=0; row<height; row++){
@@ -44,12 +51,14 @@ function drawPyramid(height, brickChar) {
             rowStr += brickChar
         }
 
-        // create a test element with this string
+        // create a text element with this string
         textElem = document.createTextNode(rowStr);
+        
 
         // create a <p> element with this str (one row at a time)
         rowElem = document.createElement("p");
         rowElem.appendChild(textElem);
+        
 
         // insert the paragraph as a child of the pyramid <div> container
         document.getElementById("pyramid").appendChild(rowElem);

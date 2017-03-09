@@ -18,9 +18,25 @@ body {
     padding: 5px;
 }
 #brick-shell {
-    float: left;
-    padding: 10px, 20px;
+    font-weight: bold;
 }
 #height-shell{
-    float: right;
+    font-weight:bold;    
+}
+#choices{
+    background-color: darkgray;
+}
+
+#container{
+    border-style: solid;
+    border-width: 3px;
+    border-color: palevioletred;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: lightgray;
+}
+#pyramid{
+    font-weight: bold;
+    color: palevioletred;
+    background-color: lightgray
 }
