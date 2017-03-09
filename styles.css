@@ -1,7 +1,10 @@
 #pyramid {
     line-height: 0;
     font-size: 30px;
-    white-space: pre
+    white-space: pre;
+    background-color: lightgray;
+    color: palevioletred;
+    font-weight: bold;
 }
 
 body {
@@ -19,10 +22,14 @@ body {
 }
 #brick-shell {
     font-weight: bold;
+    margin: 0 auto;
+
 }
 #height-shell{
-    font-weight:bold;    
-}
+    font-weight:bold;
+    margin: 0 auto;
+ }
+
 #choices{
     background-color: darkgray;
 }
@@ -34,9 +41,4 @@ body {
     border-radius: 5px;
     margin: 20px;
     background-color: lightgray;
-}
-#pyramid{
-    font-weight: bold;
-    color: palevioletred;
-    background-color: lightgray
 }
