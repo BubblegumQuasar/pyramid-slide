@@ -1,0 +1,26 @@
+#pyramid {
+    line-height: 0;
+    font-size: 30px;
+    white-space: pre
+}
+
+body {
+    font-family: "Courier New", monospace;
+    text-align: center;
+}
+
+#pyramid-title {
+    font-family: "Courier New", monospace;
+    font-size: 30px;
+    color: lightgray;
+    font-weight: bold;
+    background-color: palevioletred;
+    padding: 5px;
+}
+#brick-shell {
+    float: left;
+    padding: 10px, 20px;
+}
+#height-shell{
+    float: right;
+}
