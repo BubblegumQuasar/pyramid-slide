@@ -7,6 +7,10 @@
     font-weight: bold;
 }
 
+#height-label{
+    padding-top: 5px;
+    padding-right: 6px;
+}
 body {
     font-family: "Courier New", monospace;
     text-align: center;
@@ -23,15 +27,28 @@ body {
 #brick-shell {
     font-weight: bold;
     margin: 0 auto;
-
+    float: left;
+    clear: right;
+    padding-top: 3px;
+    width: 50%;
 }
+
 #height-shell{
     font-weight:bold;
     margin: 0 auto;
+    width: 700px;
  }
+
+#slide-val{
+    float:left;
+    width: 18px;
+    padding-left: 6px;
+    padding-top: 5px;
+}
 
 #choices{
     background-color: darkgray;
+    padding: 10px;
 }
 
 #container{
@@ -41,4 +58,11 @@ body {
     border-radius: 5px;
     margin: 20px;
     background-color: lightgray;
+}
+.clearfix{
+    clear: both;
+
+}
+.pull-left{
+    float:left;
 }
